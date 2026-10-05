@@ -70,10 +70,10 @@ Displays a loading toast while the conditions are being checked, followed by a s
 ## Links
 
 ### GitHub
-
+https://github.com/onxstigb/IndianaTrails 
 
 ### Web 4
-
+https://in-info-web4.luddy.indianapolis.iu.edu/~obrookin/homework4/
 
 ## Assignment
 
