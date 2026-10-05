@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f1e8;
+    color: #263528;
+    line-height: 1.6;
+}
+
+
+@media (max-width: 900px) {
+
+    header {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .hero,
+    .large-trail {
+        grid-template-columns: 1fr;
+    }
+
+    .trail-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .trail-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .hero {
+        padding: 50px 20px;
+
+        .hero-text h2 {
+            font-size: 50px;
+        }
+    }
+
+    .intro,
+    .featured,
+    .trail-list {
+        padding: 60px 20px;
+    }
+
+    .page-header h2 {
+        font-size: 45px;
+    }
+
+}
